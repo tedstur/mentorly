@@ -1,0 +1,6 @@
+Dev Notes:
+
+Add versioning:
+
+https://www.smashingmagazine.com/2011/03/ten-things-every-wordpress-plugin-developer-should-know/
+

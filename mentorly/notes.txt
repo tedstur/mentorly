@@ -1,0 +1,43 @@
+Mentorly Plugin
+
+Installation Notes
+===================
+Upon activation, two pages are created:
+
+- Mentor Signup - the page to show after a mentor has signed up
+- Mentee Signup - the page to show after a mentee has signed up
+
+Default email text is created for these emails:
+
+1.	Email to Send to a Mentor Upon Signup
+2.	Email to Send to a Mentee Upon Signup
+3.	Email to Send to a Mentor to Remind them of the Mentor/Mentee Relationship
+4.	Email to Send to both the Mentor and Mentee when a match is made
+
+These emails are initially set to "off" or "do not send." You should review these emails and determine if you would like them to be created by the system.
+
+Shortcodes for Emails
+=====================
+[mentor_last_name]			Last name of the mentor
+[mentor_first_name]			First name of the mentor
+[mentor_email]				Email address of the mentor
+[mentor_profile]			Profile of the mentor in table form
+
+[mentee_last_name]			Last name of the mentee
+[mentee_first_name]			First name of the mentee
+[mentee_email]				Email address of the mentee
+[mentee_profile]			Profile of the mentor in table form
+
+[decide_on_mentoring]  		URL of the page (and id) to accept/reject mentoring relationship
+
+Shortcodes for Forms
+====================
+[mentorly_mentor_form]		Creates the signup form for a mentor
+[mentorly_mentee_form]		Creates the signup form for a mentee
+
+Pro Options
+============
+The pro version of this plugin adds the following functionality:
+
+- Images attached to profiles
+	
