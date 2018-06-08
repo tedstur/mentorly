@@ -109,7 +109,7 @@ include( plugin_dir_path( __FILE__ ) . '/tz.php');
 				if( ! taxonomy_exists( $taxonomy_name ) )
 				{
 					/* Create taxonomy and attach it to the object type (post type) */
-					//Capitilize the words and make it plural
+					//Capitilize the words and make it plural 
 					$name       = ucwords( str_replace( '_', ' ', $name ) );
 					$plural     = $name . 's';
 					 

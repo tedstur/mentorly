@@ -1,3 +1,5 @@
+THIS IS A TEST
+
 include('class-mentor.php');
  
 $book = new Custom_Post_Type( 'Book' );
